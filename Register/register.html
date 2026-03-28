@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Novel Store</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="rigester.css">
+
+    <style>
+
+
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="Logo">
+            <a href="../index.html">
+                <h1>Novel <span>store</span></h1>
+            </a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/About/about.html">About</a></li>
+            <li><a href="/Best Sellers/Best Sellers.html">Best Sellers</a></li>
+
+        </ul>
+        <div class="nav-actions">
+            <div class="auth-links">
+                <a href="/login/login.html">Login</a> <span>|</span> <a href="register.html"
+                    class="active">Register</a><span style="color:#ccc;"></span>
+            </div>
+        </div>
+    </nav>
+
+    <main class="auth-wrapper">
+        <div class="auth-card">
+            <div class="auth-image"
+                style="background: linear-gradient(rgba(30, 41, 59, 0.8), rgba(0, 0, 0, 0.8)), url('https://images.unsplash.com/photo-1481627834876-b7833e8f5570?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80') center/cover;">
+                <h2>Join Us Today!</h2>
+                <p>Create an account to save your favorite books, leave reviews, and get personalized recommendations.
+                </p>
+            </div>
+
+            <div class="auth-form-container">
+                <h3>Create Account</h3>
+                <p>Fill in the details below to get started.</p>
+
+                <form action="#">
+                    <div class="input-group">
+                        <label>Full Name</label>
+                        <div class="input-wrapper">
+                            <i class="fa-regular fa-user"></i>
+                            <input type="text" placeholder="John Doe" required>
+                        </div>
+                    </div>
+
+                    <div class="input-group">
+                        <label>Email Address</label>
+                        <div class="input-wrapper">
+                            <i class="fa-regular fa-envelope"></i>
+                            <input type="email" placeholder="example@email.com" required>
+                        </div>
+                    </div>
+
+                    <div class="input-group">
+                        <label>Password</label>
+                        <div class="input-wrapper">
+                            <i class="fa-solid fa-lock"></i>
+                            <input type="password" placeholder="Create a password" required>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn-submit">Sign Up</button>
+                </form>
+
+                <div class="auth-switch">
+                    Already have an account? <a href="/login/login.html">Login here</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 Novel Store. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Sellers - Novel Store</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="fantasy.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="logo">
+            <a href="index.html">
+                <h1>Novel <span>store</span></h1>
+            </a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/About/about.html">About</a></li>
+            <li><a href="/Best Sellers/Best Sellers.html" class="active">Best Sellers</a></li>
+
+        </ul>
+        <div class="nav-actions">
+            <div class="search-bar">
+                <input type="text" placeholder="Search books...">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="auth-links">
+                <a href="/login/login.html">Login</a> <span style="color:#ccc;">|</span> <a
+                    href="/Register/register.html">Register</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="bestseller-hero">
+        <h2><i class="fa-solid fa-crown"></i> Our Best Sellers</h2>
+        <p>The most popular and highly rated books by our readers.</p>
+    </header>
+    <main class="main-container">
+        <aside class="sidebar">
+            <h3>Categories</h3>
+        </aside>
+        <div class="filter-bar">
+            <div class="filter-tabs">
+                <a href="/Romance/Romance.html" class="active">Romance</a>
+                <a href="/Science Faction/science.html">Science Fiction</a>
+                <a href="fantasy.html">Fantasy</a>
+                <a href="/Horro/horro.html">Horror</a>
+            </div>
+            <div class="sort-by">
+                <label for="sort">Sort by: </label>
+                <select id="sort">
+                    <option value="ranking">Ranking: High to Low</option>
+                    <option value="reviews">Most Reviews</option>
+                    <option value="price-low">Price: Low to High</option>
+                </select>
+            </div>
+        </div>
+
+        <section class="product-grid">
+
+            <div class="novel-card">
+                <div class="badge">#1 Best Seller</div>
+                <div class="card-img">
+                    <img src="/Image/fantasy1.jpg" alt="The Shadow King Cover">
+                </div>
+                <div class="card-info">
+                    <div class="reviews">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                            class="fa-solid fa-star"></i>
+                        <span>(12.5k)</span>
+                    </div>
+                    <h4 class="card-title">The last royal dragon</h4>
+
+                    <div class="card-bottom">
+                        <span class="price">$19.99</span>
+                        <button class="btn-add"><i class="fa-solid fa-cart-shopping"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="novel-card">
+                <div class="badge">#1 Best Seller</div>
+                <div class="card-img">
+                    <img src="/Image/fantasy2.jpg" alt="The Shadow King Cover">
+                </div>
+                <div class="card-info">
+                    <div class="reviews">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                            class="fa-solid fa-star"></i>
+                        <span>(12.5k)</span>
+                    </div>
+                    <h4 class="card-title">The sapphire heart</h4>
+
+                    <div class="card-bottom">
+                        <span class="price">$19.99</span>
+                        <button class="btn-add"><i class="fa-solid fa-cart-shopping"></i></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="novel-card">
+                <div class="badge">#1 Best Seller</div>
+                <div class="card-img">
+                    <img src="/Image/fantasy3.jpg" alt="The Shadow King Cover">
+                </div>
+                <div class="card-info">
+                    <div class="reviews">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                            class="fa-solid fa-star"></i>
+                        <span>(12.5k)</span>
+                    </div>
+                    <h4 class="card-title">Vona stewart</h4>
+
+                    <div class="card-bottom">
+                        <span class="price">$19.99</span>
+                        <button class="btn-add"><i class="fa-solid fa-cart-shopping"></i></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="novel-card">
+                <div class="badge">#2 Best Seller</div>
+                <div class="card-img">
+                    <img src="/Image/fantasy4.jpg" alt="Book Cover">
+                </div>
+                <div class="card-info">
+                    <div class="reviews">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                            class="fa-solid fa-star-half-stroke"></i>
+                        <span>(9.2k)</span>
+                    </div>
+                    <h4 class="card-title">Enchanted forest</h4>
+
+                    <div class="card-bottom">
+                        <span class="price">$22.50</span>
+                        <button class="btn-add"><i class="fa-solid fa-cart-shopping"></i></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="novel-card">
+                <div class="badge">#3 Best Seller</div>
+                <div class="card-img">
+                    <img src="/Image/fantasy5.jpg" alt="Book Cover">
+                </div>
+                <div class="card-info">
+                    <div class="reviews">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                            class="fa-regular fa-star"></i>
+                        <span>(8.1k)</span>
+                    </div>
+                    <h4 class="card-title">The hurricane wars</h4>
+
+                    <div class="card-bottom">
+                        <span class="price">$14.00</span>
+                        <button class="btn-add"><i class="fa-solid fa-cart-shopping"></i></button>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-col">
+                <div class="logo">
+                    <h1 style="color:white">Novel <span style="color:var(--primary-color)">store</span></h1>
+                </div>
+                <p style="margin-top: 1rem; font-size: 0.9rem;">Your ultimate destination for finding the best stories,
+                    adventures, and knowledge.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="bestsellers.html">Shop</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Customer Service</h4>
+                <ul>
+                    <li><a href="#">Shipping Policy</a></li>
+                    <li><a href="#">Returns & Refunds</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Novel Store. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
